@@ -100,7 +100,7 @@ pixel8ToInt pxl8 = fromIntegral pxl8
 getPixelColorValue :: PixelRGB8 -> Int
 getPixelColorValue (PixelRGB8 r g b) = do
     case colorpick of
-        "r"    -> pixel8ToInt r
+        "r" -> pixel8ToInt r
         "g" -> pixel8ToInt g
         "b" -> pixel8ToInt b
         "bw" -> ((pixel8ToInt r)+(pixel8ToInt g)+(pixel8ToInt b)) `div` 3

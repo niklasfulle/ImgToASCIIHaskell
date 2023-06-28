@@ -11,6 +11,38 @@
 
 The program converts an image to ASCII art. The image is first converted to grayscale and then to ASCII characters. The ASCII characters are chosen based on the brightness of the pixels. The program uses the [JuicyPixels](https://hackage.haskell.org/package/JuicyPixels) library to read the image. The program was build for a university project.
 
+The program uses the following formula to calculate the brightness of the pixels:
+
+```haskell
+((pixel8ToInt r)+(pixel8ToInt g)+(pixel8ToInt b)) `div` 3
+```
+
+The program uses the following characters to represent the brightness of the pixels:
+
+| Brightness | Character |
+| ---------- | --------- |
+| 0          | " "       |
+| 1 - 29     | "@"       |
+| 30 - 39    | "#"       |
+| 40 - 49    | "&"       |
+| 50 - 59    | "%"       |
+| 60 - 69    | "$"       |
+| 70 - 79    | "h"       |
+| 80 - 89    | "i"       |
+| 90 - 99    | "j"       |
+| 100 - 109  | "k"       |
+| 110 - 119  | "l"       |
+| 120 - 129  | "m"       |
+| 130 - 139  | "n"       |
+| 140 - 149  | "o"       |
+| 150 - 159  | "~"       |
+| 160 - 169  | "-"       |
+| 170 - 179  | "\_"      |
+| 180 - 189  | ","       |
+| 190 - 199  | "."       |
+| 200 - 209  | "'"       |
+| 210 - 255  | " "       |
+
 ## Build Dependencies
 
 | Name        | Version   | Link                                            |
