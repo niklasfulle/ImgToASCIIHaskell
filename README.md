@@ -37,130 +37,67 @@ The converted image will be saved in the root directory of the project as `outpu
 
 ```
                         k k k k k k k k k k k k k k k k k k k k k k
-
                         k k k k k k k k k k k k k k k k k k k k k k
-
                         k k k k k k k k k k k k k k k k k k k k k
-
                 k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k
-
                 k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k
-
                 k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k
-
                 k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k
-
                 k k k k k k k k k k k k k l l l l l l l k k k k k l l l k k k k k k k k k k
-
-                k k k k k k k k k k k k m ~ - - - - - - o k k k m ~ - - ~ i j k k k k k k
-
-                j j k k k k k k k k k j m - - - - - - - o k j j m - - - -
-
-                k j j j j k k k k j j j m - - - - - - - o k j j m - - - -
-
-        k k k j k k k k k k k k k k k k m - - - - - - - o k j j m - - - - - - - - - - - -
-
-        k k k j m ~ ~ - o k j j l ~ ~ ~ - - - - - - - - o k j j m - - - - - - - - - - - - -
-
-        k k k j m - - - o k j j m - - - - - - - - - - - o k j j m - - - - - - - - - - - - -
-
-        k k k j m - - - o k j j m - - - - - - - - - - - o j j j m - - - - - - - - - - - -
-
-        k k k j m - - - o k j j l o o o ~ - - - - - - - ~ m m m m o o o ~ - - - - - - - - - - - - -
-
-        k k k j m - - - o k j k k k k j m - - - - - - - - - - - o k k j m - - - - - - - - - - - - -
-
-        k k k j m - - - o k j k k j j j m - - - - - - - - - - - o k j j m - - - - - - - - - - - - -
-
-        k k k j m - - - o j j j j j j j l - - - - - - - - - - - o k j j m - - - - - - - - - - - - -
-
-        k k k j l o o o n m m m m m m l n - - - - - - - ~ o o o n k k j l o o o o o o o ~ ~ - - - -
-
-        k k k k k k k j m - - - - - - - - - - - - - - - o k k k k k k k k k k k k k k k k l - - -
-
-        k k k k k j j j m - - - - - - - - - - - - - - - o k j j k k k k k j j j j j j j k #
-
-        k k k k k k k j m - - - - - - - - - - - - - - - o j j j j j j j j j j j j k k k k j
-
-        k k k k k k k j m - - - - - - - - - - - - - - - o k k k k k k k k k k k k k k k k k
-
-        k k k k k k k & o - - - - - - - - - - - - - - - - ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ j j k k
-
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-                        ~ - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-                k k k $ o ~ ~ ~ ~ - - - ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ - - - - - - - - - -
-
-                k k k k k k k k k l l l l k k k k k k k k k k k l - - - - - - - -
-
+                k k k k k k k k k k k k m p ~ ~ ~ ~ ~ ~ o k k k m p ~ ~ p i j k k k k k k
+                j j k k k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~
+                k j j j j k k k k j j j m ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~
+        k k k j k k k k k k k k k k k k m ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m p p ~ o k j j l p p p ~ ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o j j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m ~ ~ ~ o k j j l o o o p ~ ~ ~ ~ ~ ~ ~ p m m m m o o o p ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m ~ ~ ~ o k j k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m ~ ~ ~ o k j k k j j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j m ~ ~ ~ o j j j j j j j l ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+        k k k j l o o o n m m m m m m l n ~ ~ ~ ~ ~ ~ ~ p o o o n k k j l o o o o o o o p p ~ ~ ~ ~
+        k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k l ~ ~ ~
+        k k k k k j j j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k j j k k k k k j j j j j j j k #
+        k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o j j j j j j j j j j j j k k k k j
+        k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k k
+        k k k k k k k & o ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ p p p p p p p p p p p p j j k k
+                        ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+                        p ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+                k k k $ o p p p p ~ ~ ~ p p p p p p p p p p p p ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+                k k k k k k k k k l l l l k k k k k k k k k k k l ~ ~ ~ ~ ~ ~ ~ ~
                 k k k k k j j j k j j j k j j j j j j j j j j j k
-
                 k k k k k k k j k k k k k j j k k k k k j j j j j
-
         k k k k k k k k k k k j k k k k k j j k k k k j k k k k k j j k k k k k k k k k k k
-
         k k k k k k k k k k k j k k k k k j j k k k k j k k k k k j k k k k k k k k k k k k
-
         k k k k k k k k k k k j k k k k k j j k k k k j k k k k k j j k k k k k k k k k k k
-
         k k k k k k k k k k k j k k k k k j j j j j j j k k k k k j j k k k k k k k k k k
-
 k k k k k k k k k k k k k k k j k k k k k k k k k k k k k k k k k j j k k k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k j k k k k k k k k k k k k k k k k k j j k k k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k j k k k k k k k k k k k k k k k k k j j k k k k k k k k k k k k k k k
-
 j j j j j j j j j k k k k k k j k j j k k k k k k k k k k k k j k j j k j k k k k j j j j j j j j j
-
 k k k k k k k k k k k k k k k k k k l l k k k k k k k k k l l l k k k k k k k k k k k k k k k k k k
-
-~ ~ ~ ~ ~ ~ ~ - o k j j k k k k m ~ - - o k k k k k k j m ~ - - o k k k k j k j l ~ ~ ~ ~ ~ ~ ~ ~ ~
-
-- - - - - - - - o k j j k k k j m - - - o k k k k k k j m - - - o k k k k j j j m - - - - - - - - -
-
-- - - - - - - - o j j j k k k j m - - - o k k k k k k j m - - - o k k k k j j j m - - - - - - - - -
-
-- - - - - - - - o k k k k k k j m ~ - - o k k k k k k j m ~ - - o k k k k k k k m - - - - - - - - -
-
-- - - - - - - - - ~ ~ - o k k k k l l l k k k k k k k k k l l l k k k j m ~ ~ ~ - - - - - - - - - -
-
-- - - - - - - - - - - - o k k k k k k k k k k k k k k k k k k k k k k j m - - - - - - - - - - - - -
-
-- - - - - - - - - - - - o k k k k k k k k k k k k k k k k k k k k k k j m - - - - - - - - - - - - -
-
-- - - - - - - - ~ o o o n k k k k k k k k k k k k k k k k k k k k k k j l o o o ~ - - - - - - - - -
-
-- - - - - - - - o j k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j m - - - - - - - - -
-
-- - - - - - - - o k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j m - - - - - - - - -
-
-- - - - - - - - o k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j m - - - - - - - - -
-
-- - - - - - - - o k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j l ~ - - - - - - - -
-
-  - - - - - -   k k k k k k k k k k k k k k k k k k k   k k k k k k k k k k k k k i l - - - - - -
-
+p p p p p p p ~ o k j j k k k k m p ~ ~ o k k k k k k j m p ~ ~ o k k k k j k j l p p p p p p p p p
+~ ~ ~ ~ ~ ~ ~ ~ o k j j k k k j m ~ ~ ~ o k k k k k k j m ~ ~ ~ o k k k k j j j m ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ o j j j k k k j m ~ ~ ~ o k k k k k k j m ~ ~ ~ o k k k k j j j m ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k j m p ~ ~ o k k k k k k j m p ~ ~ o k k k k k k k m ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ ~ p p ~ o k k k k l l l k k k k k k k k k l l l k k k j m p p p ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ p o o o n k k k k k k k k k k k k k k k k k k k k k k j l o o o p ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ o j k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j m ~ ~ ~ ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ ~ ~ o k k k k k k k k k k k k k k k k k k k k k k k k k k k k k k j l p ~ ~ ~ ~ ~ ~ ~ ~
+  ~ ~ ~ ~ ~ ~   k k k k k k k k k k k k k k k k k k k   k k k k k k k k k k k k k i l ~ ~ ~ ~ ~ ~
                 k k k k k k k k k k k k k k             k k k k k k k k k k k k k h
-
                 k k k k k k k k k k k k k k             k k k k k k k k k k k k k
-
         k k k i k k k k k k k k k k k k k k             k k k k k k k k k k k k k j j k k
-
         k k k k k k k k k k k k k j j k k               k k k i k k k k k k k k k k k k k k
-
         k k k k k k k k k k k k j                               j j k k k k k k j k k k k k
-
         k k k k k k k k k k k k k j                             k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k k k k                             k k k k k k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k k k k                             k k k k k k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k k k k                             k k k k k k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k k k k                             k k k k k k k k k k k k k k k k k k
-
 k k k k k k k k k k k k k k k k k k                             k k k k k k k k k k k k k k k k k k
 ```
