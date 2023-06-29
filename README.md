@@ -1,6 +1,6 @@
 # Img to ASCII Converter Haskell
 
-## Overview
+## Table of contents
 
 -   [Description](#description)
 -   [Build Dependencies](#build-dependencies)
